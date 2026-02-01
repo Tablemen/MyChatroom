@@ -3,4 +3,5 @@ body {
     background: black;
     color:white;
     text-align: center;
+    image-rendering: pixelated;
 }
