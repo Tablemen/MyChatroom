@@ -4,13 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Last Prophecy</title>
     <link rel="stylesheet" href="styles2.css">
+    .game-object {
+        position: absolute;
+        transform-origin: top left;
+        transform: scale(2);
+    }
 </head>
 <body>
-    <div style="position: relative; width: 50%; margin: 0 auto; aspect-ratio: 16/9;"> <!--Screen -->
-        <img src="./assets/textures/Church/basepiano.png" style="width: 100%; height: auto; position: absolute; top: 0; left: 0;"> <!--Background -->
-        <img src="./assets/textures/Church/spr_dw_church_organ_large_chair_0.png" style="width: 10%; height: auto; position: absolute; top: 80%; left: 45%;"> <!--Chair-->
-        <img src="./assets/textures/Characters/ralsei/up/spr_ralsei_walk_up_0.png" style="width: 10%; height: auto; position: absolute; top: 80%; left: 45%;"> <!--Chair-->
-        <img src="./assets/textures/Characters/susie/up/spr_susie_walk_up_dw_0.png" style="width: 10%; height: auto; position: absolute; top: 80%; left: 45%;"> <!--Chair-->
-    </div>
+    <!-- Screen -->
+    <img src="./assets/textures/Church/basepiano.png" style="position: absolute; top: 0px; left: 0px;"> <!--Background -->
+    <img src="./assets/textures/Church/spr_dw_church_organ_large_chair_0.png" class="game-object" style="top: 290px; left: 288px;"> <!--Chair-->
+    <img src="./assets/textures/Characters/ralsei/up/spr_ralsei_walk_up_0.png" class="game-object" style="top: 282px; left: 250px;"> <!--Ralsei-->
+    <img src="./assets/textures/Characters/susie/up/spr_susie_walk_up_dw_0.png" class="game-object" style="top: 276px; left: 344px;"> <!--Susie-->
 </body>
 </html>
